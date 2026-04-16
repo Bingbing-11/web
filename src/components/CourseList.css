@@ -1,0 +1,53 @@
+.course-list {
+  margin-top: 10px;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+  padding: 0 4px;
+}
+
+.list-stats {
+  font-size: 13px;
+  color: #666;
+}
+
+.list-stats b {
+  color: #333;
+}
+
+.memo-badge {
+  font-size: 11px;
+  color: #888;
+  background: #f0f0f0;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.list-content {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: #999;
+}
+
+.empty-icon {
+  font-size: 56px;
+  margin-bottom: 16px;
+  opacity: 0.6;
+}
+
+.empty-state p {
+  font-size: 15px;
+}

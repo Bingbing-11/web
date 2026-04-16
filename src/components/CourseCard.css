@@ -1,0 +1,130 @@
+.course-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 16px 20px;
+  background: #fff;
+  border-radius: 14px;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: all 0.2s ease;
+}
+
+.course-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
+}
+
+.course-card.learned {
+  background: #f6ffed;
+  border-color: #b7eb8f;
+}
+
+.course-status {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.course-card.learned .course-status {
+  background: #d9f7be;
+}
+
+.course-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.course-title {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 6px;
+  word-break: break-all;
+  font-weight: 600;
+}
+
+.course-desc {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.course-meta {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.course-id {
+  font-size: 11px;
+  color: #999;
+  background: #f5f5f5;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.render-count {
+  font-size: 11px;
+  color: #bbb;
+}
+
+.course-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.action-btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+
+.learn-btn {
+  background: #e6f7ff;
+  color: #1677ff;
+  border: 1px solid #91caff;
+}
+
+.learn-btn:hover {
+  background: #bae0ff;
+}
+
+.learned-btn {
+  background: #f6ffed;
+  color: #52c41a;
+  border: 1px solid #b7eb8f;
+}
+
+.edit-btn {
+  background: #fff7e6;
+  color: #fa8c16;
+  border: 1px solid #ffd591;
+}
+
+.edit-btn:hover {
+  background: #ffe7ba;
+}
+
+.delete-btn {
+  background: #fff;
+  color: #ff4d4f;
+  border: 1px solid #ffccc7;
+}
+
+.delete-btn:hover {
+  background: #fff1f0;
+}
